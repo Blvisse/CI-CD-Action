@@ -18,5 +18,5 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: Testing python job
         run: |
-          python -m ./scripts/app.py 
+          python ./scripts/app.py 
       - run: echo "🍏 This job's status is ${{ job.status }}."
